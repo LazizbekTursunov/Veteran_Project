@@ -1,0 +1,95 @@
+.katalog {
+    margin-top: 20px;
+}
+
+.katalog__text {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Grey);
+    font-family: "Geologica";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+    padding-bottom: 30px;
+}
+
+.katalog__info {
+    display: flex;
+}
+
+.katalog__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; 
+    // width: 480px;
+}
+
+.katalog__list {
+    display: flex;
+    margin-left: 80px;
+}
+
+.katalog__img {
+    margin-top: -8px;
+    width: 26px;
+    height: 26px;
+}
+
+.katalog__p {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: -3px;
+    color: var(--color-Grey);
+    font-family: "Geologica";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+    padding-bottom: 8px;
+}
+
+.katalog__line {
+    margin-left: -25px;
+    width: 470px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .katalog__list {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .katalog__info {
+        flex-direction: column;
+    }
+
+    .katalog__list {
+        margin-left: -30px;
+    }
+} 
+
+@media only screen and (max-width: 522px) {
+    .katalog__line {
+        width: 350px;
+    }
+}  
+
+@media only screen and (max-width: 424px) {
+    .katalog__line {
+        width: 250px;
+    }
+
+    .katalog__p {
+        font-size: 10px;
+    }
+
+
+}  
