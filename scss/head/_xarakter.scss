@@ -1,0 +1,116 @@
+.xarakter {
+    margin-top: 145px;
+}
+
+.xarakter__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; 
+    margin-left: 20px;
+}
+
+.xarakter__info {
+    display: flex;
+}
+
+.xarakter__icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.xarakter__text {
+    margin-top: -5px;
+    margin-left: 5px;
+    color: #2B2A28;
+    font-family: "Geologica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+}
+
+.xarakter__span {
+    color: #2B2A28;
+    font-family: "Geologica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.xarakter__divv {
+    display: flex;
+    gap: 45px;
+    margin-left: 20px;
+}
+
+.xarakter__infos {
+    display: flex;
+    margin-left: -60px;
+}
+
+.xarakter__line {
+    height: 102px;
+}
+
+.xarakter__icons {
+    width: 71px;
+    height: 71px;
+    margin-top: 25px;
+}
+
+.xarakter__number {
+    margin: 0;
+    padding: 0;
+    color: var(--1, #2B2A28);
+    font-family: "Geologica";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .xarakter {
+        margin-top: 650px;
+    }
+}
+
+@media only screen and (max-width: 806px) {
+    .xarakter__infos {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .xarakter__infos {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .xarakter__line {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .xarakter__divv {
+        flex-direction: column;
+    }
+
+    .xarakter__info {
+        flex-direction: column;
+    }
+
+    .xarakter__heading {
+        font-size: 24px;
+    }
+}

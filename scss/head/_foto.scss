@@ -1,0 +1,72 @@
+.foto {
+    margin-top: 145px;
+}
+
+.foto__info {
+    display: flex;
+}
+
+.foto__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--1, #2B2A28);
+    font-family: "Geologica";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; 
+    margin-left: 30px;
+}
+
+.foto__icon {
+    width: 81px;
+    height: 16px;
+    margin-left: 600px;
+}
+
+.foto__div {
+    display: flex;
+}
+
+.foto__item {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .foto__div {
+        flex-direction: column;
+    }
+
+    .foto__icon {
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 702px) {
+    .foto__info {
+        flex-direction: column;
+    }
+
+    .foto__icon {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 354px) {
+    .foto__div {
+        margin-left: -50px;
+    }
+
+    .foto__info {
+        margin-left: -30px;
+    }
+
+    .foto__icon {
+        margin-left: 30px;
+    }
+
+    .foto__heading {
+        font-size: 30px;
+    }
+}

@@ -4,9 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main/main.min.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Project</title>
 </head>
 <body>
+    <main class="main">
+        <section class="house">
+            <div class="container">
+                <p class="house__text">Главная страница / Наши работы</p>
+
+                <div class="house__soz">
+                    <h1 class="house__heading">Вариант ST-56 «Barcelona»</h1>
+                    <div class="house__imgg">
+                        <img class="house__logo" src="./img/Cases/belgi.svg" alt="belgi">
+                        <span class="house__span">Вернуться назад</span>
+                    </div>
+                </div>
+
+                <div class="house__div">
+                    <img class="house__img" src="./img/Cases/house.png" alt="house">
+
+                    <div class="house__info">
+                        <img class="house__images" src="./img/Cases/build.png" alt="build">
+                        <img class="house__images" src="./img/Cases/home.png" alt="home">
+                        <img class="house__images" src="./img/Cases/uy.png" alt="uy">
+                    </div>
+                </div>
+
+                <ul class="house__list">
+                    <li class="house__item">
+                        <h2 class="house__title">Проведем точный расчет <span class="house__headline">в 2 шага</span></h2>
+                        <button type="button" class="house__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Узнать точную цену
+                        </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" style="color: #2B2A28; font-family: Geologica; font-size: 30px; font-style: normal;
+                                    font-weight: 700; line-height: 44px;" id="exampleModalLabel">Вариант ST-56 «Barcelona»</h1>
+                                    <img class="modal__img" src="./img/Cases/dom.png" alt="dom">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h2 class="modal__headline" style="width: 379px;">Закажите консультацию, если сомневаетесь</h2>
+                                    <input class="house__input ms-5 pe-5" type="text" placeholder="+38 XXX XXX XX XX">
+                                    <br>
+                                    <button type="button" class="house__btn mt-4">Получить точный расчет</button>
+
+                                    <p class="house__textt">Отправляя данные, Вы соглашаетесь на обработку <span class="house__soz">персональных данных</span></p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="house__li">
+                        <h3 class="house__h3">Закажите консультацию, если сомневаетесь</h3>
+                          <input class="house__input" type="text" placeholder="+38 XXX XXX XX XX">
+                            <div class="hero__div">
+                                <button type="button" class="house__button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Заказать
+                                </button>
+
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <img class="modal__img" src="./img/Cases/Brat.png" alt="Brat">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <h2 class="modal__headline" style="width: 396px;">Получите ответы на все свои вопросы за 15 минут</h2>
+                                            <input class="house__input ms-5 pe-5" type="text" placeholder="+38 XXX XXX XX XX">
+                                            <br>
+                                            <button type="button" class="house__btn mt-4">Получить точный расчет</button>
+
+                                            <p class="house__textt">Отправляя данные, Вы соглашаетесь на обработку <span class="house__soz">персональных данных</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <p class="house__textt">Отправляя данные, Вы соглашаетесь на обработку <span class="house__soz">персональных данных</span></p>
+                    </li>
+                </ul>
+            </div>
+        </section> 
+
+         <section class="xarakter">
+            <div class="container">
+                <h4 class="xarakter__heading">Характеристики:</h4>
+                <div class="xarakter__info">
+                    <img class="xarakter__icon" src="./img/Cases/SquareHalf.svg" alt="SquareHalf">
+                    <p class="xarakter__text">Технологии: <br> <span class="xarakter__span">Дом из газоблока и кирпича</span></p>
+                    <img class="xarakter__icon" src="./img/Cases/Clock.svg" alt="Clock">
+                    <p class="xarakter__text">Сроки строительства: <br> <span class="xarakter__span">30 дней</span></p>
+                </div>
+
+                <div class="xarakter__divv">
+                    <div class="xarakter__div">
+                        <a class="xarakter__text" href="#">Проект:</a> <br>
+                        <a class="xarakter__text" href="#">Стиль:</a> <br>
+                        <a class="xarakter__text" href="#">Фундамент:</a> <br>
+                        <a class="xarakter__text" href="#">Утепление стен:</a> <br>
+                        <a class="xarakter__text" href="#">Кровля:</a> <br>
+                        <a class="xarakter__text" href="#">Окна:</a> <br>
+                        <a class="xarakter__text" href="#">Отделка фасада:</a> <br>
+                        <a class="xarakter__text" href="#">Наружная покраска:</a> <br>
+                        <a class="xarakter__text" href="#">Чистовая отделка:</a> <br>
+                        <a class="xarakter__text" href="#">Отделка парной:</a> <br>
+                        <a class="xarakter__text" href="#">Печь:</a>
+                    </div>
     
+                    <div class="xarakter__div">
+                        <a class="xarakter__span" href="#">Финская баня "Франкфурт Medium"</a> <br>
+                        <a class="xarakter__span" href="#">Финский</a> <br>
+                        <a class="xarakter__span" href="#">Свайно-винтовой</a> <br>
+                        <a class="xarakter__span" href="#">RockWool, 150 мм</a> <br>
+                        <a class="xarakter__span" href="#">GrandLine</a> <br>
+                        <a class="xarakter__span" href="#">Двойной стеклопакет Rehau</a> <br>
+                        <a class="xarakter__span" href="#">Имитация бруса</a> <br>
+                        <a class="xarakter__span" href="#">Tikkurila</a> <br>
+                        <a class="xarakter__span" href="#">Имитация бруса</a> <br>
+                        <a class="xarakter__span" href="#">Осина</a> <br>
+                        <a class="xarakter__span" href="#">Термофор Витрувия</a>
+                    </div>
+                </div>
+
+                <div class="xarakter__infos">
+                    <hr class="xarakter__line">
+                    <img class="xarakter__icons" src="./img/Cases/tepapast.svg" alt="tepapast">
+                    <p class="xarakter__number">20м²</p>
+                    <hr class="xarakter__line">
+                    <img class="xarakter__icons" src="./img/Cases/tepa.svg" alt="tepa">
+                    <p class="xarakter__number">2 этажа</p>
+                    <hr class="xarakter__line">
+                    <img class="xarakter__icons" src="./img/Cases/иконка.svg" alt="иконка">
+                    <p class="xarakter__number">4x5м</p>
+                    <hr class="xarakter__line">
+                </div>
+            </div>
+        </section>
+
+        <section class="foto">
+            <div class="container">
+                <div class="foto__info">
+                    <h5 class="foto__heading">Фотографии кейса</h5>
+                    <img class="foto__icon" src="./img/Cases/кнопки.svg" alt="кнопки">
+                </div>
+
+                <div class="foto__div">
+                    <ul class="foto__list">
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/1.png" alt="1">
+                        </li>
+
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/5.png" alt="5">
+                        </li>
+                    </ul>
+
+                    <ul class="foto__list">
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/2.png" alt="2">
+                        </li>
+
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/6.png" alt="6">
+                        </li>
+                    </ul>
+
+                    <ul class="foto__list">
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/3.png" alt="3">
+                        </li>
+
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/7.png" alt="7">
+                        </li>
+                    </ul>
+
+                    <ul class="foto__list">
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/4.png" alt="4">
+                        </li>
+
+                        <li class="foto__item">
+                            <img class="foto__img" src="./img/Cases/8.png" alt="8">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+    </main> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

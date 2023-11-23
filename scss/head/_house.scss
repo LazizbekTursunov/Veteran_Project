@@ -1,0 +1,235 @@
+.house {
+    margin-top: 20px;
+}
+
+.house__text {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Grey);
+    font-family: "Geologica";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+}
+
+.house__soz {
+    display: flex;
+    gap: 385px;
+}
+
+.house__imgg {
+    margin-top: 30px;
+}
+
+.house__heading {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.house__span {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Oranges);
+    font-family: "Geologica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.house__div {
+    display: flex;
+    gap: 30px;
+}
+
+.house__images {
+    margin-bottom: 5px;
+}
+
+.house__list {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 760px;
+}
+
+.house__item {
+    background-color: aliceblue;
+    max-width: 370px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.house__title {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    padding-top: 50px;
+    padding-left: 45px;
+    width: 280px;
+    margin-bottom: 26px;
+}
+
+.house__headline {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Oranges);
+    font-family: "Geologica";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.house__btn {
+    color: #FFF;
+    text-align: center;
+    font-family: "Geologica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    border-radius: 4px;
+    background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+    border: 1px solid #F39C32;
+    padding: 22px; 
+    margin-left: 45px;
+    margin-bottom: 52px;
+}
+
+.house__li {
+    background-color: aliceblue;
+    max-width: 370px;
+    border-top-right-radius: 40px;
+}
+
+.house__h3 {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 300px;
+    padding-top: 45px;
+    padding-left: 45px;
+}
+
+.house__input {
+    border-radius: 4px;
+    border: 1px solid #E7D8C7;
+    background: #FFF;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-bottom: 19px;
+    padding-right: 91px;
+    margin-left: 30px;
+}
+
+.house__button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Geologica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    border-radius: 4px;
+    background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+    border: 1px solid #F39C32;
+    padding: 22px; 
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.house__textt {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Black);
+    font-family: "Geologica";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+    width: 270px;
+    margin-left: 45px;
+}
+
+.house__soz {
+    margin: 0;
+    padding: 0;
+    color: var(--color-Oranges);
+    font-family: "Geologica";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 98px;
+    margin-top: -23px;
+}
+
+.btn-close {
+    transform: translate(-5px, -90px);
+}
+
+@media only screen and (max-width: 1200px) {
+    .house__div {
+        flex-direction: column;
+    }
+
+    .house__imgg {
+        margin-left: -200px;
+    }
+
+    .house__list {
+        transform: translate(-800px, 120px);
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .house__heading {
+        width: 300px;
+    }
+
+    .house__imgg {
+        margin-left: -300px;
+    } 
+}
+
+@media only screen and (max-width: 576px) {
+    .house__img {
+        width: 500px;
+    }
+
+    
+
+    .house__heading {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .house__logo {
+        width: 20px;
+    }
+
+    .house__span {
+        font-size: 14px;
+    }
+}
